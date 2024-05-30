@@ -1,0 +1,160 @@
+@media only screen and (max-width: 600px) {
+
+    nav .menu {
+        display: none;
+    }
+
+    .header-content {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+
+    .about-us-content {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+
+    }
+
+    .our-cases .cases {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+
+    .contact .container {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+
+    }
+
+    footer .container .footer-content {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .contact-form form .row {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .about-us-content .about-us-disc .imgs {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
+
+    .about-us-content .about-us-disc .imgs img {
+        margin-bottom: 20px;
+    }
+
+    .about-us-content .about-us-disc .Contact-Information {
+
+        width: 100%;
+        height: auto;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
+
+    .about-us-content .about-us-disc .Contact-Information .calls {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        padding: 30px 0 30px 30px;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact .contact-content {
+        flex-direction: column;
+    }
+
+    .swiper {
+        max-width: 250px;
+        margin: auto;
+        margin: 10px 0;
+    }
+
+    .bar-icon {
+        display: inline-block;
+    }
+
+    nav .btn1 {
+        display: none;
+    }
+
+    .swiper {
+        display: none;
+    }
+
+    .header-img img {
+        display: inline-block !important;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    nav .menu {
+        display: none;
+    }
+
+    .header-content {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .about-us-content {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+
+    }
+
+    .our-cases .cases {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+
+    footer .container .footer-content {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .bar-icon {
+        display: inline-block;
+    }
+
+    .contact .contact-content {
+        flex-direction: column;
+    }
+
+    .swiper {
+        display: none;
+    }
+
+    .header-img img {
+        display: inline-block !important;
+    }
+
+}
+
+@media only screen and (min-width: 901px) {}
